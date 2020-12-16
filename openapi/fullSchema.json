@@ -9,6 +9,18 @@
       "email": "contact@zestlabs.io"
     }
   },
+  "securityDefinitions": {
+      "access_token": {
+          "type": "apiKey",
+          "name": "Authorization",
+          "in": "header"
+      }
+  },
+  "security": [
+    {
+        "access_token": []
+    }
+  ],
   "schemes": [
     "https"
   ],
